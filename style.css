@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*---------INDEX----------*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  font-weight: 800;
+  background-color: #dedcd0;
+  align-items: flex-start;
+  font-family: "Cinzel", serif;
+  justify-content: space-between;
+  font-size: 16px;
+ 
+  
+}
+
+.titulo {
+  text-align: center;
+}
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 5px 10px 10px;
+  width: 100%;
+  padding: 10px 10px 10px 0;
+}
+
+header nav ul li a {
+  color: #030303;
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+  margin: 10px 5px 10px 10px;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  align-items: flex-end;
+  text-decoration: none;
+}
+body {
+  background-color: #030303;
+}
+
+.content__section {
+  padding: 10px;
+}
+
+.parallax {
+  background-image: url("./imagenes/orq-paula.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+  opacity: 0.7;
+  background-size: cover;
+}
+
+.perseverancia {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.quienes-somos--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quienes__somos-title {
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.quienes-somos--container p {
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.quienes-somos--container img {
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.integrantes__title{
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.integrantes__container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.integrantes__container p {
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.integrantes__container img {
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.anchor_mid {
+  text-decoration: none;
+  color: white;
+}
+
+#historia h2 {
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+}
+
+.historia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.historia p {
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.historia img {
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+/*-----------REPERTORIO-----------*/
+.parallax-repertorio {
+  background-image: url("./imagenes/saxos.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 5px;
+  opacity: 0.7;
+}
+section h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.reper {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: baseline;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.conciertos h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.conciertos p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.conciertos-dest h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.conciertos-dest p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.pepe h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.pepe p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.tesis h2 {
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.tesis p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+/*--------------DIRECTORES------------*/
+.parallax-directores {
+  background-image: url("./imagenes/directores.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+.dires h2 {
+  text-align: left;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 20px 10px;
+  margin: 20px;
+}
+.dires p ul {
+  text-decoration: none;
+  padding: 20px 10px;
+  margin: 20px;
+}
+.dires ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 20px 10px;
+  margin: 20px;
+}
+/*------------------GALERIA-------------------*/
+.parallax-galeria {
+  background-image: url("./imagenes/violines.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  opacity: 0.7;
+}
+.galeria {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: #dedcd0;
+  background-color: #030303;
+  padding: 20px 10px;
+}
+.galeria__container {
+
+  margin: 30px 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+footer {
+  display: flex;
+  font-family: "Cinzel", serif;
+  background-color: #dedcd0;
+  justify-content: end;
+  padding: 20px;
+}
+footer ul li a {
+  color: #030303;
+  text-decoration: none;
+  margin: 10px 5px 10px 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/*---------media-queries-----------*/
+@media only screen and (max-width: 768px){
+   /*-----------estilos-generales------------*/
+   .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contacto  {
+justify-content: center;
+  }
+
+  /*------------index-----------*/
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /*------------index-----------*/
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quienes-somos--container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .integrantes__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .historia {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .historia img {
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*-----------repertorio-----------*/
+  .reper {
+    flex-direction: column;
+    justify-content: center;
+  }
+   /*-----------galeria-----------*/
+
+   .galeria__container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+  }
+
+}
+@media only screen and (max-width: 576px){
+
+
+  /*-----------estilos-generales------------*/
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contacto  {
+justify-content: center;
+  }
+
+  
+
+  /*------------index-----------*/
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quienes-somos--container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .integrantes__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .historia {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .historia img {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*-----------repertorio-----------*/
+  .reper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /*-----------galeria-----------*/
+
+  .galeria__container{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    justify-content: center;
+  }
+}
