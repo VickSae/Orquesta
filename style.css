@@ -5,50 +5,6 @@
 /*---------INDEX----------*/
 
 header {
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: row;
-  font-weight: 800;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  align-items: flex-start;
-  font-family: "Cinzel", serif;
-  justify-content: space-between;
-  font-size: 16px;
-  color: #dedcd0;
-}
-
-.titulo {
-  text-align: center;
-}
-.container-nav {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  text-align: center;
-  margin: 10px 5px 10px 10px;
-  width: 100%;
-  height: 60px;
-  padding: 10px 10px 10px 0;
- transition: all 2s linear;
-}
-
-.container-nav ul li a{
-  color: #dedcd0;
-  text-decoration: none;
-  font-family: "Cinzel", serif;
-  font-size: 1.2rem;
-  margin: 10px 5px 10px 10px;
-  font-weight: bold;
-  border-radius: 80%;
-}
-li {
-  display: inline;
-  align-items: flex-end;
-  text-decoration: none;
-}
-=======
  position: sticky;
  top: 0px;
  background-color: black;
@@ -71,7 +27,6 @@ li {
   justify-content: flex-end;
 }
 
->>>>>>> segunda
 body {
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -87,22 +42,13 @@ body {
 }
 
 .parallax {
-<<<<<<< HEAD
-  background-image: url("./imagenes/hand-conductor2.jpg");
-=======
   background-image: url("./imagenes/roxy-paula.jpg");
->>>>>>> segunda
   height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  opacity: 0.7;
- 
-=======
   opacity:0.9;
   background-size: cover;
->>>>>>> segunda
 }
 
 .perseverancia {
@@ -116,10 +62,6 @@ body {
   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> segunda
 .animate__animated.animate__fadeIn {
   --animate-duration: 5s;
 }
