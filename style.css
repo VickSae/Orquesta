@@ -5,6 +5,7 @@
 /*---------INDEX----------*/
 
 header {
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   font-weight: 800;
@@ -47,6 +48,30 @@ li {
   align-items: flex-end;
   text-decoration: none;
 }
+=======
+ position: sticky;
+ top: 0px;
+ background-color: black;
+ z-index: 100;
+ font-family: "Cinzel", serif;
+}
+
+.navbar-brand {
+  color: #dedcd0;
+  font-size: 1.3rem;
+}
+
+.nav-link{
+  color: var(--bs-nav-link-color);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+>>>>>>> segunda
 body {
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -62,17 +87,27 @@ body {
 }
 
 .parallax {
+<<<<<<< HEAD
   background-image: url("./imagenes/hand-conductor2.jpg");
+=======
+  background-image: url("./imagenes/roxy-paula.jpg");
+>>>>>>> segunda
   height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   opacity: 0.7;
  
+=======
+  opacity:0.9;
+  background-size: cover;
+>>>>>>> segunda
 }
 
 .perseverancia {
   font-family: "Cinzel", serif;
+  font-size: 30px;
   text-align: center;
   color: #dedcd0;
   padding: 21px 0;
@@ -81,6 +116,10 @@ body {
   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> segunda
 .animate__animated.animate__fadeIn {
   --animate-duration: 5s;
 }
@@ -137,6 +176,9 @@ body {
 .anchor_mid {
   text-decoration: none;
   color: white;
+  font-family: "Raleway", serif;
+  padding: 10px 10px;
+  margin: 15px 10px;
 }
 
 #historia h2 {
@@ -324,20 +366,33 @@ section h2 {
   justify-items: center;
 }
 
-footer {
+#contacto {
   display: flex;
+  flex-direction: row-reverse;
   font-family: "Cinzel", serif;
   background-color: #dedcd0;
-  justify-content: end;
   padding: 20px;
 }
-footer ul li a {
-  color: #030303;
-  text-decoration: none;
-  margin: 10px 5px 10px 10px;
-  font-size: 1.2rem;
-  font-weight: bold;
+#contacto ul{
+  display: flex;
+  margin-bottom: 0px;
 }
+#contacto ul li{
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+}
+
+#contacto ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  color: #030303;
+  flex-direction: row-reverse;
+  margin: 10px 15px;
+}
+
+
 /*---------media-queries-----------*/
 @media only screen and (max-width: 768px){
    /*-----------estilos-generales------------*/
