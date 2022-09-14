@@ -283,21 +283,12 @@ section h2 {
   margin: 20px;
 }
 /*------------------GALERIA-------------------*/
-.parallax-galeria {
-  background-image: url("./imagenes/violines.jpg");
-  height: 700px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 50px;
-  opacity: 0.7;
-}
 .galeria {
   font-family: "Cinzel", serif;
   text-align: center;
   color: #dedcd0;
-  padding: 20px 10px;
+  padding: 10px 10px;
+  margin-bottom: 0px;
 }
 .galeria__container {
 
@@ -312,28 +303,34 @@ section h2 {
 
 #contacto {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: space-evenly;
   font-family: "Cinzel", serif;
   background-color: #dedcd0;
-  padding: 20px;
+  padding: 10px;
+
 }
 #contacto ul{
   display: flex;
   margin-bottom: 0px;
+ 
+
 }
 #contacto ul li{
   text-decoration: none;
   list-style: none;
-  justify-content: center;
 }
 
 #contacto ul li a{
   text-decoration: none;
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 800;
   color: #030303;
-  flex-direction: row-reverse;
-  margin: 10px 15px;
+  margin: 10px 60px;
+  justify-content: space-around;
+}
+#contacto ul li i:hover{
+  color: #434343;
 }
 
 

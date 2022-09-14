@@ -51,8 +51,28 @@
       </nav>
     </header>
     <main>
-      <section class="parallax-galeria"></section>
       <h2 class="galeria">Galería</h2>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/img-carousel/ooo.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/img-carousel/rrr.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/img-carousel/uuu.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <div class="galeria__container">
         <div><img src="./imagenes/redi-2/ru-y-yo-bn.jpg" alt="violinistas" /></div>
         <div><img src="./imagenes/redi-2/primeros.jpg" alt="violinista" /></div>
@@ -71,22 +91,10 @@
 
     <footer id="contacto">
       <ul>
-        <li>
-          <a href="https://www.facebook.com/OrquestaSinfonicaEstudiantes"
-            >Facebook</a
-          >
-        </li>
-        <li>
-          <a href="https://www.instagram.com/sinfonica.estudiantes/"
-            >Instagram</a
-          >
-        </li>
-        <li>
-          <a href="https://www.youtube.com/channel/UCFdl0QR_WxkbVjjt_DSJpIQ"
-            >Youtube</a
-          >
-        </li>
-        <li><a href="#irarriba">Ir arriba</a></li>
+        <li><a href="https://www.facebook.com/OrquestaSinfonicaEstudiantes"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/sinfonica.estudiantes/"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCFdl0QR_WxkbVjjt_DSJpIQ"><i class="bi bi-youtube"></i></a></li>
+        <li><a href="#ir-arriba"><i class="bi bi-arrow-up-circle"></i></a></li>
       </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
