@@ -302,7 +302,7 @@ section h2 {
 #contacto {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content:flex-end;
   font-family: "Cinzel", serif;
   background-color: #dedcd0;
   padding: 10px;
@@ -324,7 +324,7 @@ section h2 {
   font-size: 30px;
   font-weight: 800;
   color: #030303;
-  margin: 10px 60px;
+  margin: 10px 15px;
   justify-content: space-around;
 }
 #contacto ul li i:hover{
