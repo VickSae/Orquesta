@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: $color-oscuro;
+    z-index: 100;
+    font-family: "Cinzel", serif;
+ 
+     .navbar-brand {
+         color: #dedcd0;
+         font-size: 1.3rem;
+     }
+ 
+     .nav-link{
+         color: var(--bs-nav-link-color);
+         font-size: 16px;
+         font-weight: 800;
+     }
+       
+     .navbar-collapse{
+         justify-content: flex-end;
+     }
+ }
+
+ body {
+    background: $color-oscuro;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $color-medio, $color-oscuro);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $color-medio, $color-oscuro); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

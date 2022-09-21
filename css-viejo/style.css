@@ -33,24 +33,6 @@ body {
   background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.content__section {
-  padding: 10px;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-.parallax {
-  background-image: url("./imagenes/roxy-paula.jpg");
-  height: 700px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity:0.9;
-  background-size: cover;
-}
-
 .perseverancia {
   font-family: "Cinzel", serif;
   font-size: 30px;
@@ -65,11 +47,23 @@ body {
 .animate__animated.animate__fadeIn {
   --animate-duration: 5s;
 }
-.quienes-somos--container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.parallax {
+  background-image: url("./imagenes/roxy-paula.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity:0.9;
+  background-size: cover;
 }
+.content__section {
+  padding: 10px;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 
 #quienes__somos-title {
   font-family: "Cinzel", serif;
@@ -77,6 +71,14 @@ body {
   padding: 10px 10px;
   margin: 15px 10px;
 }
+
+.quienes-somos--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
 
 .quienes-somos--container p {
   align-items: center;

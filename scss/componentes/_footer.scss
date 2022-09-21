@@ -1,0 +1,31 @@
+#contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    font-family: $font-title;
+    background-color: $color-claro;
+    padding: 10px;
+  
+    ul{
+        display: flex;
+        margin-bottom: 0px;
+   }
+
+    li{
+        text-decoration: none;
+        list-style: none;
+    }
+  
+    a{
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 800;
+        color: $color-oscuro;
+        margin: 10px 15px;
+        justify-content: space-around;
+    }
+
+  & i:hover{
+    color: $color-medio;
+  }
+}

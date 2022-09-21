@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #000000;
+  z-index: 100;
+  font-family: "Cinzel", serif;
+}
+header .navbar-brand {
+  color: #dedcd0;
+  font-size: 1.3rem;
+}
+header .nav-link {
+  color: var(--bs-nav-link-color);
+  font-size: 16px;
+  font-weight: 800;
+}
+header .navbar-collapse {
+  justify-content: flex-end;
+}
+
+body {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: "Cinzel", serif;
+  background-color: #dedcd0;
+  padding: 10px;
+}
+#contacto ul {
+  display: flex;
+  margin-bottom: 0px;
+}
+#contacto li {
+  text-decoration: none;
+  list-style: none;
+}
+#contacto a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000000;
+  margin: 10px 15px;
+  justify-content: space-around;
+}
+#contacto i:hover {
+  color: #434343;
+}
+
+/*-----------Index-Contenido-----------*/
+.perseverancia {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  text-align: center;
+  color: #dedcd0;
+  padding: 21px 0;
+  flex-direction: column;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
+}
+
+.parallax {
+  background-image: url("./imagenes/roxy-paula.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background-size: cover;
+}
+
+.content__section {
+  padding: 10px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.content__section #quienes__somos-title {
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.content__section .quienes-somos--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content__section .quienes-somos--container p {
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.content__section .quienes-somos--container img {
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.integrantes__title {
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.integrantes__container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.integrantes__container p {
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.integrantes__container img {
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.anchor_mid {
+  text-decoration: none;
+  color: #dedcd0;
+  font-family: "Raleway", serif;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+#historia h2 {
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+}
+
+.historia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.historia p {
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.historia img {
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
