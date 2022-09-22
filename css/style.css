@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-/*------INDEX------*/
+
 header {
   position: sticky;
   top: 0px;
@@ -191,7 +191,7 @@ body {
 
 /*--------------DIRECTORES------------*/
 .parallax-directores {
-  background-image: url("./imagenes/directores.jpg");
+  background-image: url("../imagenes/directores.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
@@ -224,7 +224,7 @@ body {
 
 /*-----------REPERTORIO-----------*/
 .parallax-repertorio {
-  background-image: url("./imagenes/saxos.jpg");
+  background-image: url("../imagenes/saxos.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
