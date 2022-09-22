@@ -1,0 +1,19 @@
+/*------------------GALERIA-------------------*/
+.galeria {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+}
+
+.galeria__container {
+
+    margin: 30px 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+}

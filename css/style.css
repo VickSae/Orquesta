@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-
+/*------INDEX------*/
 header {
   position: sticky;
   top: 0px;
@@ -57,7 +57,6 @@ body {
   color: #434343;
 }
 
-/*-----------Index-Contenido-----------*/
 .perseverancia {
   font-family: "Cinzel", serif;
   font-size: 30px;
@@ -74,14 +73,13 @@ body {
   --animate-duration: 5s;
 }
 
-
 .parallax {
   background-image: url("../imagenes/roxy-paula.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  opacity:0.9;
+  opacity: 0.9;
   background-size: cover;
 }
 
@@ -168,6 +166,164 @@ body {
   margin: 15px 10px;
 }
 .historia img {
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+/*------------------GALERIA-------------------*/
+.galeria {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+}
+
+.galeria__container {
+  margin: 30px 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+/*--------------DIRECTORES------------*/
+.parallax-directores {
+  background-image: url("./imagenes/directores.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.dires h2 {
+  text-align: left;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  padding: 20px 10px;
+  margin: 20px;
+}
+.dires p ul {
+  text-decoration: none;
+  padding: 20px 10px;
+  margin: 20px;
+}
+.dires ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  padding: 20px 10px;
+  margin: 20px;
+}
+
+/*-----------REPERTORIO-----------*/
+.parallax-repertorio {
+  background-image: url("./imagenes/saxos.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 5px;
+  opacity: 0.7;
+}
+
+section h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.reper {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: baseline;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.conciertos h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.conciertos p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.conciertos-dest h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.conciertos-dest p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.pepe h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.pepe p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.tesis h2 {
+  font-family: "Cinzel", serif;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+.tesis p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Raleway", serif;
+  color: #dedcd0;
   padding: 10px 10px;
   margin: 15px 10px;
 }

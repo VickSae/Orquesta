@@ -1,0 +1,36 @@
+/*--------------DIRECTORES------------*/
+.parallax-directores {
+    background-image: url("./imagenes/directores.jpg");
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.dires{
+     h2 {
+    text-align: left;
+    font-family: "Cinzel", serif;
+    color: #dedcd0;
+    padding: 20px 10px;
+    margin: 20px;
+  }
+
+    p ul {
+    text-decoration: none;
+    padding: 20px 10px;
+    margin: 20px;
+  }
+
+    ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Raleway", serif;
+    color: #dedcd0;
+    padding: 20px 10px;
+    margin: 20px;
+    }
+}
