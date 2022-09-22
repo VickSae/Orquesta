@@ -74,13 +74,14 @@ body {
   --animate-duration: 5s;
 }
 
+
 .parallax {
-  background-image: url("./imagenes/roxy-paula.jpg");
+  background-image: url("../imagenes/roxy-paula.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  opacity:0.9;
   background-size: cover;
 }
 

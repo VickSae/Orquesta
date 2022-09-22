@@ -3,6 +3,123 @@
 @import "./componentes/footer";
 @import "./componentes/index-contenido";
 
+.perseverancia {
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    text-align: center;
+    color: $color-claro;
+    padding: 21px 0;
+    flex-direction: column;
+    background: $color-oscuro;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $color-medio,$color-oscuro);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $color-medio,$color-oscuro); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
+}
 
 
+.parallax {
+    background-image: url("../imagenes/roxy-paula.jpg");
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.9;
+    background-size: cover;
+}
 
+.content__section {
+    padding: 10px;
+    background: $color-oscuro;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $color-medio, $color-oscuro);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $color-medio, $color-oscuro); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    #quienes__somos-title {
+        font-family: $font-title;
+        color: $color-claro;
+        padding: 10px 10px;
+        margin: 15px 10px;
+    }
+        
+    .quienes-somos--container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        p {
+            align-items: center;
+            justify-content: space-between;
+            font-family:$fot-text;
+            color:$color-claro;
+            padding: 10px 10px;
+            margin: 15px 10px;
+            
+        }
+
+        img {
+            padding: 10px 10px;
+            margin: 15px 10px;
+        }
+    }
+
+}
+
+.integrantes__title{
+font-family: $font-title;
+color:$color-claro;
+padding: 10px 10px;
+margin: 15px 10px;
+}
+
+.integrantes__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    p {
+        align-items: center;
+        justify-content: space-between;
+        font-family:$fot-text;
+        color: $color-claro;
+        padding: 10px 10px;
+        margin: 15px 10px;
+    }
+    img {
+        padding: 10px 10px;
+        margin: 15px 10px;
+    }
+}
+  
+.anchor_mid {
+    text-decoration: none;
+    color:$color-claro;
+    font-family: $fot-text;
+    padding: 10px 10px;
+    margin: 15px 10px;
+}
+
+#historia h2 {
+    justify-content: flex-start;
+    font-family:$font-title;
+    color: $color-claro;
+}
+
+.historia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+        align-items: center;
+        justify-content: space-between;
+        font-family:$fot-text;
+        color:$color-claro;
+        padding: 10px 10px;
+        margin: 15px 10px;
+    }
+    img {
+        padding: 10px 10px;
+        margin: 15px 10px;
+    }
+}
