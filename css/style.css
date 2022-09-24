@@ -57,6 +57,10 @@ body {
   color: #434343;
 }
 
+#contacto {
+  background-color: #dedcd0;
+}
+
 .perseverancia {
   font-family: "Cinzel", serif;
   font-size: 30px;
@@ -224,7 +228,7 @@ body {
 
 /*-----------REPERTORIO-----------*/
 .parallax-repertorio {
-  background-image: url("../imagenes/saxos.jpg");
+  background-image: url("./imagenes/saxos.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;

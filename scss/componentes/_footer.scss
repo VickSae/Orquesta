@@ -29,3 +29,7 @@
     color: $color-medio;
   }
 }
+
+#contacto {
+  background-color: map-get($map: $contacto, $key: bg-footer);
+}
