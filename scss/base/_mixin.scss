@@ -1,0 +1,17 @@
+@mixin footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    @include footer()
+}
+
+@mixin parrafos ($size, $color) {
+    font-size: $size;
+    padding: $size;
+    margin: $size;
+    background-color: $color;
+    color: #dedcd0;
+}
