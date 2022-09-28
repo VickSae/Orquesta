@@ -1,6 +1,9 @@
 %disposicion {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
-    align-items: center;
+}
+
+.integrantes__container {
+    @extend %disposicion
 }
