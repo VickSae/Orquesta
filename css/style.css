@@ -73,6 +73,60 @@ body {
   background-color: #dedcd0;
 }
 
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.contacto{
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+}
+
+.con-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nombre{
+  padding: 10px 10px;
+  margin-bottom: 0px;
+  color: #dedcd0;
+}
+
+.con-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.email{
+  padding: 10px 10px;
+  margin-bottom: 0px;
+  color: #dedcd0;
+}
+
+.con-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mensaje{
+  padding: 10px 10px;
+  margin-bottom: 0px;
+  color: #dedcd0;
+}
+
 .perseverancia {
   font-family: "Cinzel", serif;
   font-size: 30px;
@@ -240,7 +294,7 @@ body {
 
 /*-----------REPERTORIO-----------*/
 .parallax-repertorio {
-  background-image: url("./imagenes/saxos.jpg");
+  background-image: url("../imagenes/saxos.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
@@ -342,6 +396,18 @@ section h2 {
   color: #dedcd0;
   padding: 10px 10px;
   margin: 15px 10px;
+}
+
+/*-------------CONTACTO----------------*/
+
+.parallax-contacto {
+  background-image: url("../imagenes/violines-2.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
