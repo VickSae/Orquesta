@@ -337,14 +337,14 @@ section h2 {
 
 /*---------media-queries-----------*/
 @media only screen and (max-width: 768px){
-   /*-----------estilos-generales------------*/
-   .header {
+  /*-----------estilos-generales------------*/
+  header {
     flex-direction: column;
     align-items: center;
   }
 
   #contacto  {
-justify-content: center;
+    justify-content: center;
   }
 
   /*------------index-----------*/
@@ -383,7 +383,7 @@ justify-content: center;
   }
    /*-----------galeria-----------*/
 
-   .galeria__container{
+   .galeria__container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     justify-content: center;
