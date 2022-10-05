@@ -73,59 +73,7 @@ body {
   background-color: #dedcd0;
 }
 
-.formulario{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
-}
-.contacto{
-  font-family: "Cinzel", serif;
-  text-align: center;
-  color: #dedcd0;
-  padding: 10px 10px;
-  margin-bottom: 0px;
-}
-
-.con-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.nombre{
-  padding: 10px 10px;
-  margin-bottom: 0px;
-  color: #dedcd0;
-}
-
-.con-2{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.email{
-  padding: 10px 10px;
-  margin-bottom: 0px;
-  color: #dedcd0;
-}
-
-.con-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.mensaje{
-  padding: 10px 10px;
-  margin-bottom: 0px;
-  color: #dedcd0;
-}
 
 .perseverancia {
   font-family: "Cinzel", serif;
@@ -409,5 +357,50 @@ section h2 {
   opacity: 0.9;
   background-size: cover;
 }
+
+.formulario{
+  color: #dedcd0;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+}
+
+.row{
+  color: #dedcd0;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #dedcd0;
+  color: #000000;
+  border: 3px solid #000000;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-around;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: #dedcd0;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+}
+.enviar {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn:hover {
+    color:#000000;
+}
+
 
 /*# sourceMappingURL=style.css.map */
