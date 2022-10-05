@@ -1,0 +1,108 @@
+/*---------media-queries-----------*/
+@media only screen and (max-width: 768px){
+    /*-----------estilos-generales------------*/
+    .header {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   #contacto  {
+ justify-content: center;
+   }
+ 
+   /*------------index-----------*/
+   header {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   /*------------index-----------*/
+   header {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+ 
+   .quienes-somos--container {
+     flex-direction: column;
+     justify-content: center;
+   }
+   .integrantes__container {
+     flex-direction: column;
+     justify-content: center;
+   }
+   .historia {
+     flex-direction: column;
+     justify-content: center;
+   }
+   .historia img {
+     flex-direction: column;
+     justify-content: center;
+   }
+   /*-----------repertorio-----------*/
+   .reper {
+     flex-direction: column;
+     justify-content: center;
+   }
+    /*-----------galeria-----------*/
+ 
+    .galeria__container{
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(6, 1fr);
+     justify-content: center;
+   }
+ 
+ }
+ @media only screen and (max-width: 576px){
+ 
+ 
+   /*-----------estilos-generales------------*/
+   .header {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   #contacto  {
+ justify-content: center;
+   }
+ 
+   
+ 
+   /*------------index-----------*/
+   header {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+ 
+   .quienes-somos--container {
+     flex-direction: column;
+     justify-content: center;
+   }
+   .integrantes__container {
+     flex-direction: column;
+     justify-content: center;
+   }
+   .historia {
+     flex-direction: column;
+     justify-content: center;
+   }
+   .historia img {
+     flex-direction: column;
+     justify-content: center;
+   }
+ 
+   /*-----------repertorio-----------*/
+   .reper {
+     flex-direction: column;
+     justify-content: center;
+   }
+   
+   /*-----------galeria-----------*/
+ 
+   .galeria__container{
+     grid-template-columns: repeat(1, 1fr);
+     grid-template-rows: repeat(12, 1fr);
+     justify-content: center;
+   }
+ }
