@@ -112,12 +112,13 @@ body {
   padding: 10px 10px;
   margin: 15px 10px;
 }
-.content__section .quienes-somos--container {
+
+.quienes-somos--container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.content__section .quienes-somos--container p {
+.quienes-somos--container p {
   align-items: center;
   justify-content: space-between;
   font-family: "Raleway", serif;
@@ -125,7 +126,7 @@ body {
   padding: 10px 10px;
   margin: 15px 10px;
 }
-.content__section .quienes-somos--container img {
+.quienes-somos--container img {
   padding: 10px 10px;
   margin: 15px 10px;
 }
@@ -477,10 +478,6 @@ section h2 {
     justify-content: center;
   }
   .historia {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .historia img {
     flex-direction: column;
     justify-content: center;
   }
