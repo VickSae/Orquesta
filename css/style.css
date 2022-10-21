@@ -22,12 +22,13 @@ header {
   z-index: 100;
   font-family: "Cinzel", serif;
 }
-header .navbar-brand {
-  color: #dedcd0;
-  font-size: 1.3rem;
+header .navbar {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
 }
 header .nav-link {
-  color: var(--bs-nav-link-color);
+  color: white;
   font-size: 16px;
   font-weight: 800;
 }
@@ -46,7 +47,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   font-family: "Cinzel", serif;
-  background-color: #dedcd0;
+  background-color: white;
   padding: 10px;
 }
 #contacto ul {
@@ -73,13 +74,11 @@ body {
   background-color: #dedcd0;
 }
 
-
-
 .perseverancia {
   font-family: "Cinzel", serif;
   font-size: 30px;
   text-align: center;
-  color: #dedcd0;
+  color: white;
   padding: 21px 0;
   flex-direction: column;
   background: #000000; /* fallback for old browsers */
@@ -109,7 +108,7 @@ body {
 }
 .content__section #quienes__somos-title {
   font-family: "Cinzel", serif;
-  color: #dedcd0;
+  color: white;
   padding: 10px 10px;
   margin: 15px 10px;
 }
@@ -122,7 +121,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-family: "Raleway", serif;
-  color: #dedcd0;
+  color: white;
   padding: 10px 10px;
   margin: 15px 10px;
 }
@@ -133,7 +132,7 @@ body {
 
 .integrantes__title {
   font-family: "Cinzel", serif;
-  color: #dedcd0;
+  color: white;
   padding: 10px 10px;
   margin: 15px 10px;
 }
@@ -147,7 +146,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-family: "Raleway", serif;
-  color: #dedcd0;
+  color: white;
   padding: 10px 10px;
   margin: 15px 10px;
 }
@@ -158,7 +157,7 @@ body {
 
 .anchor_mid {
   text-decoration: none;
-  color: #dedcd0;
+  color: white;
   font-family: "Raleway", serif;
   padding: 10px 10px;
   margin: 15px 10px;
@@ -167,7 +166,7 @@ body {
 #historia h2 {
   justify-content: flex-start;
   font-family: "Cinzel", serif;
-  color: #dedcd0;
+  color: white;
 }
 
 .historia {
@@ -179,7 +178,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-family: "Raleway", serif;
-  color: #dedcd0;
+  color: white;
   padding: 10px 10px;
   margin: 15px 10px;
 }
@@ -218,31 +217,44 @@ body {
   opacity: 0.7;
 }
 
-.dires h2 {
-  text-align: left;
-  font-family: "Cinzel", serif;
-  color: #dedcd0;
+.dires {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px 10px;
   margin: 20px;
 }
-.dires p ul {
-  text-decoration: none;
+.dires h2 {
+  font-family: "Cinzel", serif;
+  color: white;
   padding: 20px 10px;
   margin: 20px;
+}
+.dires ul {
+  display: contents;
 }
 .dires ul li {
-  display: flex;
-  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
   align-items: center;
   font-family: "Raleway", serif;
-  color: #dedcd0;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
   padding: 20px 10px;
   margin: 20px;
+}
+.dires img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /*-----------REPERTORIO-----------*/
 .parallax-repertorio {
-  background-image: url("../imagenes/saxos.jpg");
+  background-image: url("./imagenes/saxos.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
@@ -346,7 +358,15 @@ section h2 {
   margin: 15px 10px;
 }
 
-/*-------------CONTACTO----------------*/
+/*-----------CONTACTO----------*/
+.contacto {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+}
 
 .parallax-contacto {
   background-image: url("../imagenes/violines-2.jpg");
@@ -358,49 +378,123 @@ section h2 {
   background-size: cover;
 }
 
-.formulario{
-  color: #dedcd0;
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content: center;
-}
-
-.row{
-  color: #dedcd0;
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content: center;
-}
-
-.btn {
-  background-color: #dedcd0;
-  color: #000000;
-  border: 3px solid #000000;
-  border-radius: 6px;
-  text-decoration: none;
-}
-
-.contacto{
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content:space-around;
+.formulario {
   font-family: "Cinzel", serif;
   text-align: center;
-  color: #dedcd0;
-  padding: 10px 10px;
+  color: white;
+  font-weight: 500;
+  padding: 20px 10px;
   margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
+
+.texto {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row {
+  padding: 10px 10px;
+}
+
 .enviar {
+  color: black;
+  background-color: white;
   text-decoration: none;
-  color: #000000;
+  border: white solid;
+  border-radius: 3px;
+  border-width: 2px 10px 5px;
+  margin: 20px 20px;
 }
 
-.btn:hover {
-    color:#000000;
+/*---------media-queries-----------*/
+@media only screen and (max-width: 768px) {
+  /*------------index-----------*/
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quienes-somos--container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .integrantes__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .historia {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .historia img {
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*-----------repertorio-----------*/
+  .reper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*-----------galeria-----------*/
+  .galeria__container {
+    grid-template-columns: repeat 2, 1fr;
+    grid-template-rows: repeat 6, 1fr;
+    justify-content: center;
+  }
 }
-
+@media only screen and (max-width: 576px) {
+  /*-----------estilos-generales------------*/
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  #contacto {
+    justify-content: center;
+  }
+  /*------------index-----------*/
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quienes-somos--container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .integrantes__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .historia {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .historia img {
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*-----------repertorio-----------*/
+  .reper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*-----------galeria-----------*/
+  .galeria__container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    justify-content: center;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

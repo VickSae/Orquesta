@@ -1,0 +1,57 @@
+/*-----------CONTACTO----------*/
+.contacto {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    padding: 10px 10px;
+    margin-bottom: 0px;
+}
+
+.parallax-contacto {
+    background-image: url("../imagenes/violines-2.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background-size: cover;
+}
+.formulario {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.texto {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row {
+    padding: 10px 10px;
+}
+
+.enviar{
+    color: black;
+    background-color:white;
+    text-decoration: none;
+    border:white solid;
+    border-radius: 3px;
+    border-width: 2px 10px 5px;
+    margin: 20px 20px;
+   
+}

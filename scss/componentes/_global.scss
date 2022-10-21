@@ -10,13 +10,14 @@ header {
     z-index: 100;
     font-family: "Cinzel", serif;
  
-     .navbar-brand {
-         color: #dedcd0;
-         font-size: 1.3rem;
+     .navbar {
+         color:white;
+         font-size: 20px;
+         font-weight: 800;
      }
  
      .nav-link{
-         color: var(--bs-nav-link-color);
+         color: white;
          font-size: 16px;
          font-weight: 800;
      }
