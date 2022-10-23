@@ -255,7 +255,7 @@ body {
 
 /*-----------REPERTORIO-----------*/
 .parallax-repertorio {
-  background-image: url("./imagenes/saxos.jpg");
+  background-image: url("../imagenes/saxos.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
